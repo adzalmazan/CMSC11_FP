@@ -454,5 +454,5 @@ def show_page(page_class):
 home_page = HomePage(window, controller=None)
 home_page.place(in_=window, x=0, y=0, relwidth=1, relheight=1)
 
-window.resizable(False, False)
+window.resizable(True, True)
 window.mainloop()
